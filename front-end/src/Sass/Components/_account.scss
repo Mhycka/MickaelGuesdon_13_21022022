@@ -1,0 +1,33 @@
+.account {
+    display: flex;
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 1px solid black;
+    &-amount {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    &-title {
+        font-size: 1rem;
+    }
+    &-content {
+        flex-grow: 1;
+    }
+    .transaction-button {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+
+    }
+    // @include media-min('md') {
+    //     flex-direction: row; justify-content: space-between; align-items: center;
+    //     .transaction-button {
+    //         width: 200px;
+    //     }
+    // }
+    // @include media-max('md') {
+    //     flex-direction: column;
+    //     .transaction-button {
+    //         width: 100%;
+    //     }
+    // }
+}

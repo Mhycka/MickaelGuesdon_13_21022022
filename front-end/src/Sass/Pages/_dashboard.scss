@@ -1,0 +1,42 @@
+.dashboard {
+    &-header {
+        margin: 2rem;
+        text-align: center;
+        color: #fff;
+        h1 {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 2em;
+            font-weight: bold;
+            line-height: 2.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+    &-grid {
+        display: flex; flex-direction: column;
+        gap: 2rem;
+        width: 80%;
+        margin: 1rem auto 2rem;
+    }
+    &-form {
+        display: flex; justify-content: center;
+        gap: 1rem;
+        &-wrapper {
+            display: flex; flex-direction: column;
+            width: 200px;
+            gap: 1rem;
+        }
+        &-wrapper:first-child {
+            align-items: flex-end;
+        }
+        &-wrapper:last-child {
+            align-items: flex-start;
+        }
+        .btn {
+            padding: 0.5rem 2rem;
+        }
+    }
+}
